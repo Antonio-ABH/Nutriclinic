@@ -1,0 +1,29 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  width: 60%;
+  height: 50%;
+}
+.links a {
+  text-decoration: none;
+  color: #90ebff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 7px 7px 4px 2px #f9f9f996;
+}
+a:hover {
+  background: #dcdddf47;
+}
+.active {
+  background-color: rgba(9, 255, 0, 0.462);
+}
+
+@media (max-width: 1023px) {
+  .links a {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,54 @@
+.clinic {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.clinicTitle {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.containerImg {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 2px dashed gray;
+  border-left: 2px dashed gray;
+  padding: 40px;
+}
+.clinicParaph {
+  width: 50%;
+  font-size: 1.4rem;
+  line-height: 1cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  text-align: justify;
+  background-color: rgba(250, 235, 215, 0.361);
+  border-radius: 30px;
+}
+.clinicImg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clinicImg img {
+  width: 400px;
+  height: 300px;
+}
+
+@media (max-width: 1439px) {
+  .containerImg {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clinicParaph {
+    width: 75%;
+  }
+  .clinicImg {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,55 @@
+.deportiva {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.deportTitle {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.infoDeportImg {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 2px dashed gray;
+  border-left: 2px dashed gray;
+  padding: 40px;
+}
+.deportParaph {
+  width: 50%;
+  font-size: 1.4rem;
+  line-height: 1cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  text-align: justify;
+  background-color: rgba(250, 235, 215, 0.361);
+  border-radius: 30px;
+}
+.deportImg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deportimg img {
+  width: 400px;
+  height: 300px;
+}
+
+@media (max-width: 1439px) {
+  .infoDeportImg {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .deportParaph {
+    width: 75%;
+  }
+  .deportImg {
+    padding: 50px;
+  }
+}

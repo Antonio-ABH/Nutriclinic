@@ -1,0 +1,20 @@
+.values {
+  width: 50%;
+  background-color: beige;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+.valuesTitle {
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.valuesList {
+  font-size: 1.4rem;
+  line-height: 1cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+}

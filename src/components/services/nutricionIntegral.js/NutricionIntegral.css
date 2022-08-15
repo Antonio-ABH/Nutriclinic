@@ -1,0 +1,52 @@
+.integral {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.integralTitle {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.infoImg {
+  display: flex;
+  border-bottom: 2px dashed gray;
+  border-right: 2px dashed gray;
+  padding: 40px;
+}
+.integralParaph {
+  width: 50%;
+  font-size: 1.4rem;
+  line-height: 1cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  text-align: justify;
+  background-color: rgba(250, 235, 215, 0.361);
+  border-radius: 30px;
+}
+.integralImg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.integralImg img {
+  width: 400px;
+}
+
+@media (max-width: 1439px) {
+  .infoImg {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .integralParaph {
+    width: 75%;
+  }
+  .integralImg {
+    padding: 50px;
+  }
+}

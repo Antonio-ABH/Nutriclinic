@@ -1,0 +1,21 @@
+.vision {
+  width: 80%;
+  background-color: beige;
+  padding: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.visionTitle {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  align-self: flex-start;
+}
+.visionParaph {
+  font-size: 1.4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1cm;
+  color: #456383;
+}
