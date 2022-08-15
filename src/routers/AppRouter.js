@@ -7,7 +7,7 @@ import Services from "../pages/Services";
 const AppRouter = () => {
   return (
     <Routes>
-      <Route exact path="/home" element={<HomePage />} />
+      <Route exact path="/" element={<HomePage />} />
       <Route exact path="/nosotros" element={<AboutPage />} />
       <Route exact path="/servicios" element={<Services />} />
     </Routes>
